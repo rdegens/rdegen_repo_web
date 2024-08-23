@@ -125,6 +125,23 @@ a,
     filter: drop-shadow(0px 1px #000);
 }
 
+.descrip {
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+    line-height: 150%;
+    text-transform: capitalize;
+    line-height: 1.14;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 0.4px #000;
+    background-image: linear-gradient(to top, #fff, #e1921e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    filter: drop-shadow(0px 1px #000);
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -369,7 +386,7 @@ button:focus {
 }
 
 .partner-logo {
-    height: 100%;
+    height: 10%;
     padding: 24px;
     border-radius: 12px;
     box-shadow: 4px 4px 0 0 #000;
